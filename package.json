@@ -1,53 +1,42 @@
 {
-  "name": "getmdl-dashboard",
-  "version": "1.0.0",
-  "description": "Free dashboard template with Material Design Lite",
-  "keywords": [
-    "dashboard",
-    "admin template",
-    "mdl",
-    "getmdl",
-    "Material Design",
-    "Material Design Lite",
-    "Dark",
-    "dark material design"
-  ],
-  "main": "gulpfile.js",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
-  "devDependencies": {
-    "browser-sync": "2.18.6",
-    "del": "2.2.2",
-    "gulp": "3.9.1",
-    "gulp-babel": "5.3.0",
-    "gulp-clean": "0.3.2",
-    "gulp-inject": "3.0.0",
-    "gulp-jscs": "3.0.2",
-    "gulp-jshint": "1.12.0",
-    "gulp-livereload": "3.8.1",
-    "gulp-minify-css": "1.2.4",
-    "gulp-plumber": "1.0.2",
-    "gulp-rename": "1.2.2",
-    "gulp-sass": "2.1.1",
-    "gulp-uglify": "1.4.2",
-    "gulp-watch": "4.3.11",
-    "jshint-stylish": "2.0.1",
-    "node-sass": "4.3.0"
-  },
+  "name": "gentelella",
+  "version": "1.4.0",
+  "description": "Gentelella Admin is a free to use Bootstrap admin template",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CreativeIT/getmdl-dashboard.git"
+    "url": "git+https://github.com/puikinsh/gentelella.git"
   },
-  "author": "CreativeIT",
+  "keywords": [
+    "css",
+    "js",
+    "html",
+    "template",
+    "admin",
+    "bootstrap",
+    "theme",
+    "backend",
+    "responsive"
+  ],
+  "author": "Aigars Silkalns",
+  "contributors": [
+    "Christian Esperar"
+  ],
+  "license": "MIT",
+  "main": "build/js/custom.min.js",
   "bugs": {
-    "url": "https://github.com/CreativeIT/dashboard/issues"
+    "url": "https://github.com/puikinsh/gentelella/issues"
   },
-  "homepage": "https://github.com/CreativeIT/dashboard#readme"
+  "homepage": "https://github.com/puikinsh/gentelella#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.10",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-uglify": "^1.5.3"
+  }
 }
